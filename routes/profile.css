@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-size:100%;
+    font-family: sans-serif;
+}
+.wrap{
+    width:100%;
+    float:left;
+}
+.main{
+    width:100%;
+    height:90vh;
+    position:relative;
+    
+}
+.regmain{
+    width:100%;
+    height:50vh;
+    position:relative;
+    background-color: rgb(123, 163, 239);
+    width:50%;
+    margin-top: 30px;
+    margin-left: 30%;
+    padding-top:4%;
+    padding-bottom: 15px;
+    color:white;
+    text-align: center;
+}
+.main h1{
+position: absolute;
+top:10%;
+color:white;
+left:55%;
+transform:translate(-50%, -50%);
+font-size: 30px;
+}
+
+.main ul{
+    background-color: rgb(123, 163, 239);
+    width:50%;
+    margin-top: 30px;
+    margin-left: 30%;
+    padding-top:9%;
+    padding-bottom: 15px;
+    color:black;
+    text-align: center;
+    list-style: none;
+}
+
+.main ul li{
+  
+    padding:3px;
+    font-size: 20px;
+}
+/*display*/
+.container table{
+    margin-top:5%;
+    margin-left:15%;
+}
+/*sidebar*/
+
+.sidebar{
+    height:100vh;
+    width:250px;
+    background-color:cornflowerblue;
+    position:fixed;
+    z-index: 999;
+}
+
+.sidebar h1{
+    color:white;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+.sidebar ul{
+    display:block;
+    margin-top:50px;
+    padding-left: 25px;
+}
+
+.sidebar ul li{
+    padding:10px 0;
+    list-style: none;
+    border-bottom: 1px solid floralwhite;
+    margin-right: 25px;
+}
+.sidebar ul li a{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;  
+}
+
+.sidebar ul li a:hover{
+    font-size:150%;
+    transition:0.7s;
+    color:black;
+    
+}
+
+
+
+#votebtn{
+    padding:5px;
+    font-size:15px;
+    background-color:rgb(57, 31, 189);
+    color:white;
+    border-radius:5px;  
+}
+
+#voted{
+    padding:5px;
+    font-size:15px;
+    background-color:rgb(22, 135, 22);
+    color:white;
+    border-radius:5px; 
+
+}
+#backbtn{
+    padding:7px;
+    font-size:15px;
+    margin-top: 20px;
+    margin-left: 48%;
+    background-color:dodgerblue;
+    color:white;
+    border-radius:5px; 
+}
+
+.can{
+    background-color: rgb(123, 163, 239);
+    width:40%;
+    margin-top: 20px;
+    margin-left: 40%;
+    padding-top:4%;
+    padding-bottom: 15px;
+    color:white;
+    text-align: center; 
+}
+
+button{
+    padding:5px;
+    font-size: 15px;
+    background-color: dodgerblue;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* 
+#menuicon{
+    position: absolute;
+    right:-30px;
+    font-size: 30px;
+    top:0;
+    color:cornflowerblue;
+    cursor:pointer;
+} */
+
+
